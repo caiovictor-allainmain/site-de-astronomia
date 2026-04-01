@@ -47,7 +47,7 @@ a:hover {
 #povos, 
 #constelacoes, 
 #estrelas,
-#Pre-historia,
+#pre-historia,
 #Idade\ Antiga,
 #Idade\ Media,
 #Idade\ Moderna,
@@ -80,6 +80,11 @@ body::after {
   z-index: -1;
 /*
 ::after → cria uma camada extra
+radial-gradient → faz as estrelas
+background-size → espalha elas
+z-index: -1 → manda pro fundo
+*/
+}
 radial-gradient → faz as estrelas
 background-size → espalha elas
 z-index: -1 → manda pro fundo
