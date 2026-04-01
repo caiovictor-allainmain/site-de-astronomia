@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const links = document.querySelectorAll('a[href^="#"]')
 
     links.forEach(link => {
-        link.addEventListener('click' (e) => {
+        link.addEventListener('click', (e) => {
             e.preventDefault()
             const idAlvo = link.getAttribute('href')
             const alvo = document.querySelector(idAlvo)
@@ -19,8 +19,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 alvo.style.display = 'block'
                 setTimeout(() => {
                     alvo.classList.add('visivel')
-                }, 10);
+                }, 10)
             }
-        });
-    });
-});
+        })
+    })
+})
